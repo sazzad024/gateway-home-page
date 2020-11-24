@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+// 300 thin, 400 reg, 500 mid, 600 semi, 700 bold, 800 extra, 900 black
+// font-family: 'Poppins', sans-serif;
+@import "variable";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    box-sizing: border-box;
+    background-color: $bg-color;
+}
+.title-box{
+    max-width: 450px;
+    p:nth-child(1){
+      font-size: 1.937rem;
+      font-weight: 500;
+      color: $primary-color;
+      span{
+          font-weight: 700;
+      }  
+    }
+    p:nth-child(2){
+        font-size: 1.75rem;
+        font-weight: 300;
+        color: $text-color-black;
+    }
+    p:nth-child(3){
+        font-size: 1rem;
+        font-weight: 400;
+        color: $text-color-semiblack;
+    }
+    a{
+        font-weight: 400;
+        font-size: 1rem;
+        color: $bg-color;
+        text-decoration: none;
+        padding: 7px 15px;
+        border-radius: 5px;
+        background-color: $primary-color;
+    }
+}
+@media (max-width: 768px){
+    .title-box{
+        max-width: 350px;
+    }
+}
+.pl-0{
+    padding-left: 0 !important;
+}
+.pr-0{
+    padding-right: 0 !important;
+}
+.pl-15{
+    padding-left: 15px !important;
+}
+.pr-15{
+    padding-right: 15px !important;
+}
+@import "menu";
+@import "banner";
+@import "why";
+@import "features";
+@import "services";
+@import "masonry";
+@import "about";
+@import "register";
+@import "client";
+@import "footer";

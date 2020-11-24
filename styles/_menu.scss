@@ -1,0 +1,53 @@
+#menu-bar{
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: $bg-color;
+}
+.navbar-brand{
+    img{
+        max-width: 160px;
+        height: auto
+    }
+}
+.my-nav{
+    li{
+        margin: 5px 0px;
+        a{
+            color: $text-color-black;
+            margin: 0px 5px;
+            padding: 2px 4px;
+            text-decoration: none;
+            display: inline-block;
+            border-bottom: 2px solid transparent;
+            &:hover{
+                color: $primary-color;
+                border-bottom: 2px solid $primary-color;
+            }
+
+        }
+    }
+}
+.my-nav2{
+    min-width: 250px;
+    margin-left: auto;
+    li{
+        margin: 5px 0px;
+        a{
+            color: $primary-color;
+            margin: 0px 5px;
+            padding: 2px 4px;
+            text-decoration: none;
+            display: inline-block;
+            &:hover{
+                color: $text-color-black;
+            }
+
+        }
+    }
+}
+.sign-up{
+    color: $bg-color !important;
+    background-color: $primary-color;
+    border-radius: 15px;
+    padding: 2px 8px !important;
+}

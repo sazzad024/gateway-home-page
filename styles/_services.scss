@@ -1,0 +1,72 @@
+#services{
+    background-color: $bg-color-offwhite;
+    //height: 500px;
+}
+.services-bg-top,
+.services-bg-bottom{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    pointer-events: none;
+}
+.services-bg-top{
+    img{
+        position: absolute;
+        width: 45%;
+        height: auto;
+        top: -10%;
+        right: -12%;
+    }
+}
+.services-bg-bottom{
+    img{
+        position: absolute;
+        width: 45%;
+        height: auto;
+        bottom: -20%;
+        left: -24%;
+    }
+}
+.services-card{
+    background-color: $bg-color;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 1px 1px 4px 0px #6565654f;
+    -moz-box-shadow: 1px 1px 4px 0px #6565654f;
+    box-shadow: 1px 1px 4px 0px #6565654f;
+}
+.s-card-img-box{
+    width: 100%;
+    padding-top: 63%;
+    position: relative;
+    overflow: hidden;
+    border-bottom-right-radius: 72%;
+    border-bottom-left-radius: 10%;
+    img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+}
+.s-card-info{
+    padding: 15px;
+    p:nth-child(1){
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: $text-color-black;
+    }
+    p:nth-child(2){
+        font-size: 0.8125rem;
+        font-weight: 400;
+        color: $text-color-semiblack;
+    }
+}

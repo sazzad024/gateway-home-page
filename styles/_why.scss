@@ -1,0 +1,16 @@
+.bg-img-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: .5;
+    pointer-events: none;
+    img{
+        width: 50%;
+        height: auto;
+        margin-top: auto;
+        margin-left: auto;
+        display: inline-block;
+    }
+}
